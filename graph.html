@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Chat</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+        h1 {
+            font-family: arial;
+            font-size: 100%;
+        }
+        iframe {
+            width: 900px;
+            height: 500px;
+        }
+        div.top {
+            background-color: rgba(2, 109, 8, 0.83);
+            height: 30px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="favicon.png" alt="favicon" height="31" width="31">
+        <h1>Chat</h1>
+    </div>
+
+    <iframe id="iframe" src="http://ethosdistro.com/graphs/global.php?panel=superm&type=all_hash"></iframe>
+
+    <script>
+        window.setInterval(function() {
+            reloadIFrame()
+        }, 3000);
+
+        function reloadIFrame() {
+            console.log('reloading..');
+            document.getElementById('iframe').contentWindow.location.reload();
+        }
+    </script>
+</body>
+</html>
