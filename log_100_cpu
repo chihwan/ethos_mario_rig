@@ -1,0 +1,30 @@
+100%
+
+top - 13:45:30 up 21:34,  4 users,  load average: 517.75, 518.7
+Tasks: 756 total,   4 running, 751 sleeping,   0 stopped,   1 z
+%Cpu(s): 11.5 us, 26.6 sy,  0.0 ni, 61.7 id,  0.0 wa,  0.0 hi, 
+KiB Mem:   3946868 total,  3325380 used,   621488 free,     983
+KiB Swap:        0 total,        0 used,        0 free.   21550
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM 
+ 3074 root     -51   0       0      0      0 R  97.9  0.0 
+ 7278 root      20   0       0      0      0 R  48.9  0.0 
+ 6782 ethos     20   0  225684  22560   7156 S   6.1  0.6 
+    1 root      20   0   33396   3960   2684 S   0.0  0.1 
+    2 root      20   0       0      0      0 S   0.0  0.0 
+    3 root      20   0       0      0      0 S   0.0  0.0 
+    5 root       0 -20       0      0      0 S   0.0  0.0 
+    7 root      20   0       0      0      0 S   0.0  0.0 
+    8 root      20   0       0      0      0 S   0.0  0.0 
+    9 root      rt   0       0      0      0 S   0.0  0.0 
+   10 root       0 -20       0      0      0 S   0.0  0.0 
+   11 root      rt   0       0      0      0 S   0.0  0.0 
+   12 root      20   0       0      0      0 S   0.0  0.0 
+   13 root      20   0       0      0      0 S   0.0  0.0 
+   14 root      rt   0       0      0      0 S   0.0  0.0 
+   15 root      rt   0       0      0      0 S   0.0  0.0 
+01:45 PM ethos@4bdb76 192.168.0.209 [180.8 hash] /home/ethos # ps -ef|grep 3074
+root      3074     2 16 Dec21 ?        03:31:55 [irq/153-nvidia]
+01:45 PM ethos@4bdb76 192.168.0.209 [180.8 hash] /home/ethos #  
+01:45 PM ethos@4bdb76 192.168.0.209 [180.8 hash] /home/ethos # ps -ef|grep 7278
+root      7278     2 13 Dec21 ?        02:56:46 [UVM GPU13 BH]
