@@ -19,7 +19,7 @@ do
                 echo "`date`: Current power usage is $currentPowerUsage < $limit " | tee -a $log_file
                 restart=1
         fi
-        sleep 1;
+        sleep 1
   fi
 done
 
@@ -30,4 +30,5 @@ then
         minestop; minestart
         sleep 180
 fi
+sleep 180
 done
