@@ -1,0 +1,10 @@
+globalminer ethminer
+maxgputemp 85
+stratumproxy enabled
+proxywallet 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
+proxypool1 pool-usa.ethosdistro.com:5001
+proxypool2 pool-asia.ethosdistro.com:5001
+flags --cl-global-work 8192 --farm-recheck 200
+lockscreen enabled
+custompanel martinmartin
+autoreboot 3
