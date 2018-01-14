@@ -6,7 +6,7 @@ proxypool1 pool-usa.ethosdistro.com:5001
 proxypool2 pool-asia.ethosdistro.com:5001
 flags --cl-global-work 8192 --farm-recheck 200
 lockscreen enabled
-custompanel martinmartin
+custompanel sammarsammar
 autoreboot 3
 
 # GALAXY 1060 6G GGG SAMSUNG
