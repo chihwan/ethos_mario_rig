@@ -1,5 +1,5 @@
 globalminer ethminer
-maxgputemp 85
+maxgputemp 80
 stratumproxy enabled
 proxywallet 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
 proxypool1 eu1.ethermine.org:14444
