@@ -25,7 +25,7 @@ if [ "$restart" -eq 1 ]
 then
 	#echo $array[@]
 	echo "`date`: restart miner" | tee -a $log_file
-	sh autotune.sh
+	sh /home/ethos/autotune.sh
 	sleep 10 
 	sudo r
 
