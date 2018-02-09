@@ -12,7 +12,6 @@ restart=0
 pointer=0
 for i in $array
 do
-	pointer=$(($pointer + 1))
 	currentPowerUsage=$i
 	if [ "$currentPowerUsage" -lt "$limit" ]
 	then
@@ -20,6 +19,7 @@ do
 		echo "$pointer" > $crashed_gpu
 		restart=1
 	fi
+	pointer=$(($pointer + 1))
 done
 if [ "$restart" -eq 1 ]
 then
