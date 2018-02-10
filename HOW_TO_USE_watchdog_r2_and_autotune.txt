@@ -32,6 +32,6 @@ $ sudo crontab -e
 
 And add follwing command to the last line.
 
-*/10 * * * * sh /home/ethos/watchdog_r2.sh
+*/10 * * * * cd /home/ethos && sh /home/ethos/watchdog_r2.sh
 
 Now, the watchdog_r2.sh is scheduled to execute in every 10 minutes. 
