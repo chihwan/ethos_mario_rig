@@ -17,12 +17,12 @@ For example, I assumed that your hostname is abc123, and have 13 ways NVIDIA GTC
 
 And then I assumed that first gpu(#0) of your GPUs crashed down. Because of its hardware error. That is normal. 
 The watchdog_r2.sh script will catch the error of hardware by reading ethos hardware monitoring file. The values of mem line  will reduce overclocking value by -10. The local.conf will be modified like following.
-
- cor abc123 000 000 000 000 000 000 000 000 000 000 000 000 000
- fan abc123 100 100 100 100 100 100 100 100 100 100 100 100 100
- pwr abc123  80  80  80  80  80  80  80  80  80  80  80  80  80
-\# mem abc123 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850
- mem abc123 +840 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 
+\n
+ cor abc123 000 000 000 000 000 000 000 000 000 000 000 000 000\n
+ fan abc123 100 100 100 100 100 100 100 100 100 100 100 100 100\n
+ pwr abc123  80  80  80  80  80  80  80  80  80  80  80  80  80\n
+\# mem abc123 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850\n
+ mem abc123 +840 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 +850 \n
 
 That's all.
 
