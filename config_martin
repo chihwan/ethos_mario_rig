@@ -9,7 +9,19 @@ lockscreen enabled
 custompanel mariocclghks
 autoreboot 3
 
+# BGN CONF - MARTIN - 192.168.0.133  13way GTX 1060 samsung
+miner 4e8f1f ethminer
+flg 4e8f1f --cl-local-work 256 --cl-global-work 8192 --farm-recheck 200 
+mxt 4e8f1f 85
+reb 4e8f1f 1
 loc 4e8f1f martin
+#sel 4e8f1f 0 1 2 3 4 5 6 7 8 9 10 11 12 
+#off 4e8f1f 
+wallet 4e8f1f 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
+driverless 4e8f1f disabled
+desktop 4e8f1f disabled
+# END CONF - MARTIN -  13way GTX 1060 samsung
+
 
 # GALAXY 1060 6G GGG SAMSUNG
 #            00   01   02   03   04   05   06   07   08   09   10   11   12
