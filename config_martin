@@ -1,7 +1,8 @@
 globalminer ethminer
 maxgputemp 80
 stratumproxy enabled
-proxywallet 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
+#proxywallet 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
+proxywallet 0xabd1a8bb50267edfacabe90904d7c2620b15cbdd
 proxypool1 eu1.ethermine.org:14444
 proxypool2 us1.ethermine.org:14444
 flags --cl-global-work 8192 --farm-recheck 200
@@ -17,7 +18,8 @@ reb 4e8f1f 1
 loc 4e8f1f martin
 #sel 4e8f1f 0 1 2 3 4 5 6 7 8 9 10 11 12 
 #off 4e8f1f 
-wallet 4e8f1f 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
+#wallet 4e8f1f 0x3c1628325fcadbe68bd077eb334a96ff20b7f55c
+wallet 4e8f1f 0xabd1a8bb50267edfacabe90904d7c2620b15cbdd
 driverless 4e8f1f disabled
 desktop 4e8f1f disabled
 # END CONF - MARTIN -  13way GTX 1060 samsung
