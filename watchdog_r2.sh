@@ -5,7 +5,7 @@ GPUCNT=$(($(cat /var/run/ethos/gpucount.file) - 1))
 limit=55
 log_file=watchdog.log
 crashed_gpu=crash_gpu
-array=$(/opt/ethos/bin/stats|grep watts|tr "watts:" " ")
+array=$(/opt/ethos/bin/stats|grep ^watts|tr "watts:" " ")
 #echo $array[@]
 
 restart=0
