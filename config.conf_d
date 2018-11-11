@@ -18,18 +18,18 @@ autoreboot 3
 #ethminer=proxywallet 0x8a23A952144AeC2e1952EAe7e83DA7e23b66993e
 
 #ETHMINER - ethereum
-#ethminer=proxypool1 eu1.ethermine.org:14444
-#ethminer=proxypool2 us1.ethermine.org:14444
-#ethminer=proxywallet 0xAb64D92896aeE8A7454279b6bd1dD2265415EBE8
+ethminer=proxypool1 eu1.ethermine.org:14444
+ethminer=proxypool2 us1.ethermine.org:14444
+ethminer=proxywallet 0xAb64D92896aeE8A7454279b6bd1dD2265415EBE8
 #claymore=proxypool1 eu1.ethermine.org:14444
 #claymore=proxypool2 us1.ethermine.org:14444
 #claymore=proxywallet 0xAb64D92896aeE8A7454279b6bd1dD2265415EBE8
 
 #ETHMINER - CALISTO
-ethminer=proxypool1 clo.topmining.co.kr:8008
-ethminer=proxywallet 0xd4aba776654CeAF1f2b07E37ed877B57B398e5E3
-claymore=proxypool1 clo.topmining.co.kr:8008
-claymore=proxywallet 0xd4aba776654CeAF1f2b07E37ed877B57B398e5E3
+#ethminer=proxypool1 clo.topmining.co.kr:8008
+#ethminer=proxywallet 0xd4aba776654CeAF1f2b07E37ed877B57B398e5E3
+#claymore=proxypool1 clo.topmining.co.kr:8008
+#claymore=proxywallet 0xd4aba776654CeAF1f2b07E37ed877B57B398e5E3
 
 #Bitcoin Interest(BCI)
 #progpowminer=proxypool1 pool.bci-server.com:3857
@@ -51,6 +51,6 @@ desktop 4c7496 disabled
 #cor 4c7496 -200 -200 -200 -200 -200 -200
 #mem 4c7496 +600 +600 +600 +600 +600 +600
 
-pwr 4c7496   90   90   90   90   90   90
+pwr 4c7496   80   80   80   80   80   80
 cor 4c7496 -200 -200 -200 -200 -200 -200
-mem 4c7496 +600 +600 +600 +600 +600 +600
+mem 4c7496 +300 +600 +600 +600 +600 +600
