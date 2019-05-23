@@ -5,19 +5,15 @@ lockscreen enabled
 custompanel marioxmariox
 autoreboot 3
 
-
-
+#xmr-stak 
+xmr-stak=proxypool1 asia.monero.miningpoolhub.com:20580
+xmr-stak=proxywallet todaewon
+xmr-stak=poolpass1 x
 
 # BGN CONF - M0001
-flg 4c7496 --cl-global-work 8192 --farm-recheck 200
-mxt 4c7496 90
-reb 4c7496 1
 loc 4c7496 M0001
-rigpool1 4c7496 asia.monero.miningpoolhub.com:20580
-rigpoolpass1 4c7496 x
-#sel f55f17 0 1 2 3 4 5 6 7 8 9 10 11 12
-#off f55f17
-wallet 4c7496 todaewon
 driverless 4c7496 disabled
 desktop 4c7496 disabled
+#sel 4c7496 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off 4c7496
 # # END CONF - M0001
