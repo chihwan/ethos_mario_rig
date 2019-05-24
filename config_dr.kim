@@ -11,9 +11,9 @@ xmr-stak=proxywallet todaewon
 xmr-stak=poolpass1 x
 
 # BGN CONF - M0001
-loc f72ce8 M0001
+loc f72ce8 M17
 driverless f72ce8 disabled
 #desktop f72ce8 disabled
 #sel f72ce8 0 1 2 3 4 5 6 7 8 9 10 11 12
 #off f72ce8
-# # END CONF - M0001
+# # END CONF - M17
