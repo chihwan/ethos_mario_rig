@@ -2,7 +2,7 @@ globalminer xmr-stak
 maxgputemp 90
 stratumproxy coinotron
 lockscreen enabled
-custompanel marioxmariox
+custompanel mariodmariod
 autoreboot 3
 
 #xmr-stak 
