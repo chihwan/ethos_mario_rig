@@ -17,3 +17,68 @@ driverless f72ce8 disabled
 #sel f72ce8 0 1 2 3 4 5 6 7 8 9 10 11 12
 #off f72ce8
 # # END CONF - M17
+
+# BGN CONF - M05
+loc f738a2 M05
+driverless f738a2 disabled
+#desktop f738a2 disabled
+#sel f738a2 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f738a2
+# # END CONF - M05
+
+# BGN CONF - M07
+loc f73bf6 M07
+driverless f73bf6 disabled
+#desktop f73bf6 disabled
+#sel f73bf6 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f73bf6
+# # END CONF - M07
+
+# BGN CONF - M08
+loc f73e68 M08
+driverless f73e68 disabled
+#desktop f73e68 disabled
+#sel f73e68 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f73e68
+# # END CONF - M08
+
+# BGN CONF - M11
+loc f734a8 M11
+driverless f734a8 disabled
+#desktop f734a8 disabled
+#sel f734a8 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f734a8
+# # END CONF - M11
+
+# BGN CONF - M13
+loc f73e74 M13
+driverless f73e74 disabled
+#desktop f73e74 disabled
+#sel f73e74 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f73e74
+# # END CONF - M13
+
+# BGN CONF - M15
+loc f737c8 M15
+driverless f737c8 disabled
+#desktop f737c8 disabled
+#sel f737c8 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f737c8
+# # END CONF - M15
+
+
+# BGN CONF - M17
+loc f72ce8 M17
+driverless f72ce8 disabled
+#desktop f72ce8 disabled
+#sel f72ce8 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f72ce8
+# # END CONF - M17
+
+# BGN CONF - M20
+loc f738a7 M20
+driverless f738a7 disabled
+#desktop f738a7 disabled
+#sel f738a7 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f738a7
+# # END CONF - M20
