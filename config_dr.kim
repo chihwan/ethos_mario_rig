@@ -19,10 +19,11 @@ driverless f72ce8 disabled
 # # END CONF - M17
 
 # BGN CONF - M05
+mxt f738a2 95
 loc f738a2 M05
 driverless f738a2 disabled
 #desktop f738a2 disabled
-sel f738a2 00 01 02 03 04 05 06 07 08 09
+sel f738a2 0 1 2 3 4 5 6 7 8 9 
 #off f738a2
 # # END CONF - M05
 
@@ -59,6 +60,7 @@ driverless f73e74 disabled
 # # END CONF - M13
 
 # BGN CONF - M15
+mxt f737c8 95
 loc f737c8 M15
 driverless f737c8 disabled
 #desktop f737c8 disabled
@@ -76,6 +78,7 @@ driverless f72ce8 disabled
 # # END CONF - M17
 
 # BGN CONF - M20
+mxt f738a7 95
 loc f738a7 M20
 driverless f738a7 disabled
 #desktop f738a7 disabled
