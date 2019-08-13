@@ -10,6 +10,10 @@ xmr-stak=proxypool1 asia.monero.miningpoolhub.com:20580
 xmr-stak=proxywallet todaewon
 xmr-stak=poolpass1 x
 
+claymore=proxypool1 asia.ethash-hub.miningpoolhub.com:20535
+claymore=proxywallet todaewon
+claymore=poolpass1 x
+
 # BGN CONF - M0001
 loc f72ce8 M17
 driverless f72ce8 disabled
@@ -84,4 +88,14 @@ driverless f738a7 disabled
 #desktop f738a7 disabled
 #sel f738a7 0 1 2 3 4 5 6 7 8 9 10 11 12
 #off f738a7
+# # END CONF - M20
+
+
+# BGN CONF - M20TEST
+mxt f73800 95
+loc f73800 M20
+driverless f73800 disabled
+#desktop f738a00 disabled
+#sel f73800 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off f73800
 # # END CONF - M20
