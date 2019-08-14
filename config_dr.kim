@@ -108,3 +108,10 @@ cor f73800  -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200
 pwr f73800    76   76   76   76   76   76   76   76   76   76   76   76   76
 mem f73800  +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300
 # # END CONF - M20
+
+#USAGE:
+#putconf <-- github code download
+#cat local.conf <-- check code 
+#minestop && minestart <-- stop miner 
+#sudo r <-- reboot
+#sudo ethos-overclocking 
