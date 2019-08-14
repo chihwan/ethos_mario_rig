@@ -1,4 +1,5 @@
 globalminer xmr-stak
+globalfan 80
 maxgputemp 90
 stratumproxy coinotron
 lockscreen enabled
@@ -92,10 +93,18 @@ driverless f738a7 disabled
 
 
 # BGN CONF - M20TEST
+miner f73800 claymore
 mxt f73800 95
 loc f73800 M20
 driverless f73800 disabled
 #desktop f738a00 disabled
 #sel f73800 0 1 2 3 4 5 6 7 8 9 10 11 12
 #off f73800
+
+# MINER_NAME - 192.xxx.xxx.xxx
+#           GP00 GP01 GP02 GP03 GP04 GP05 GP06 GP07 GP08 GP09 GP10 GP11 GP12
+fan f73800    80   80   80   80   80   80   80   80   80   80   80   80   80
+cor f73800  -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200 -200
+pwr f73800    76   76   76   76   76   76   76   76   76   76   76   76   76
+mem f73800  +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300
 # # END CONF - M20
