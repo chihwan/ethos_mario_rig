@@ -95,7 +95,7 @@ driverless f738a7 disabled
 # BGN CONF - M20TEST
 miner 04713e claymore
 mxt 04713e 95
-loc 04713e M20
+loc 04713e T13
 driverless 04713e disabled
 #desktop 04713e disabled
 #sel 04713e 0 1 2 3 4 5 6 7 8 9 10 11 12
