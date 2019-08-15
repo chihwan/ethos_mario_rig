@@ -11,9 +11,9 @@ xmr-stak=proxypool1 asia.monero.miningpoolhub.com:20580
 xmr-stak=proxywallet todaewon
 xmr-stak=poolpass1 x
 
-claymore=proxypool1 asia.ethash-hub.miningpoolhub.com:20535
-claymore=proxywallet todaewon
-claymore=poolpass1 x
+ethminer=proxypool1 asia.ethash-hub.miningpoolhub.com:20535
+ethminer=proxywallet todaewon
+ethminer=poolpass1 x
 
 # BGN CONF - M0001
 loc f72ce8 M17
@@ -93,7 +93,7 @@ driverless f738a7 disabled
 
 
 # BGN CONF - M20TEST
-miner 04713e claymore
+miner 04713e ethminer
 mxt 04713e 95
 loc 04713e T13
 driverless 04713e disabled
