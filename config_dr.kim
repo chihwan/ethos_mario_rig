@@ -122,6 +122,16 @@ driverless f73440 disabled
 #sel f73440 0 1 2 3 4 5 6 7 8 9 10 11 12
 #off f73440
 
+# BGN CONF - T10TEST
+miner 00fa31 ethminer
+mxt 00fa31 95
+loc 00fa31 T10
+driverless 00fa31 disabled
+#desktop 00fa31 disabled
+#sel 00fa31 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off 00fa31
+
+
 # MINER_NAME - 192.xxx.xxx.xxx
 #           GP00 GP01 GP02 GP03 GP04 GP05 GP06 GP07 GP08 GP09 GP10 GP11 GP12
 fan f73440    90   90   90   90   90   90   90   90   90   90   90   90   90
@@ -136,3 +146,4 @@ mem f73440  +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300
 #minestop && minestart <-- stop miner 
 #sudo r <-- reboot
 #sudo ethos-overclocking 
+
