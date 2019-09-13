@@ -7,8 +7,12 @@ custompanel mariodmariod
 autoreboot 3
 
 #xmr-stak 
-xmr-stak=proxypool1 asia.monero.miningpoolhub.com:20580
-xmr-stak=proxywallet todaewon
+#xmr-stak=proxypool1 asia.monero.miningpoolhub.com:20580
+#xmr-stak=proxywallet todaewon
+#xmr-stak=poolpass1 x
+
+xmr-stak=proxypool1 pool.supportxmr.com:7777
+xmr-stak=proxywallet 42hyT5GibrRjamQTepJK5i4Tfi43DH9QdVDgzx82d2B5SiCEoey2p35YgR4Z1sxcCHff8tjUGiZ7aBQjmSYL3KwdHs3mc5A
 xmr-stak=poolpass1 x
 
 ethminer=proxypool1 asia.ethash-hub.miningpoolhub.com:20535
