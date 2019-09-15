@@ -144,6 +144,26 @@ pwr f73440    76   76   76   76   76   76   76   76   76   76   76   76   76
 mem f73440  +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300 +300
 # # END CONF - M20
 
+#----------------------------AMD CONFIG File SAMPLE-----------------------------------#
+# BGN CONF - 6way RX580 samsung
+miner f34b51 claymore
+mxt f34b51 90
+loc f34b51 sam10
+driverless f34b51 disabled
+desktop f34b51 disabled
+
+# RX580 SAMSUNG
+# GPU        00   01   02   03   04   05   
+safevolt disabled
+cor f34b51 1145 1145 1145 1145 1145 1145
+mem f34b51 2000 2000 2000 2000 2000 2000
+vlt f34b51  900  900  900  900  900  900
+pwr f34b51    7    7    7    7    7    7
+
+# END CONF - 6way RX580 samsung
+#----------------------------AMD CONFIG File SAMPLE-----------------------------------#
+
+
 #USAGE:
 #putconf <-- github code download
 #cat local.conf <-- check code 
