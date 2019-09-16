@@ -109,7 +109,7 @@ driverless 04713e disabled
 #sel 04713e 0 1 2 3 4 5 6 7 8 9 10 11 12
 #off 04713e
 
-# BGN CONF - 11way RX580 samsung
+# BGN CONF - 10way RX580 samsung
 miner 03f1f3 claymore
 mxt 03f1f3 95
 loc 03f1f3 T03
@@ -117,10 +117,10 @@ driverless 03f1f3 disabled
 desktop 03f1f3 disabled
 # GPU        00   01   02   03   04   05   06   07   08   09   10   11   
 safevolt disabled
-cor 03f1f3 1145 1145 1145 1145 1145 1145 1145 1145 1145 1145 1145 1145
-mem 03f1f3 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000 2000
-vlt 03f1f3  900  900  900  900  900  900 900  900  900  900  900  900
-pwr 03f1f3    7    7    7    7    7    7   7    7    7    7    7    7
+cor 03f1f3 1145 1145 1145 1145 1145 1145 1145 1145 1145 1145
+mem 03f1f3 1750 2000 2000 2000 2000 2000 2000 2000 2000 2000
+vlt 03f1f3  900  900  900  900  900  900 900  900  900  900 
+pwr 03f1f3    7    7    7    7    7    7   7    7    7    7
 
 # BGN CONF - M20TEST
 miner f73440 ethminer
