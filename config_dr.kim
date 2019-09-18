@@ -99,6 +99,14 @@ driverless f738a7 disabled
 #off f738a7
 # # END CONF - M20
 
+# BGN CONF - T3
+mxt 03f1f3 95
+loc 03f1f3 T3
+driverless 03f1f3 disabled
+#desktop 03f1f3 disabled
+#sel 03f1f3 0 1 2 3 4 5 6 7 8 9 10 11 12
+#off 03f1f3
+# # END CONF - T3
 
 # BGN CONF
 miner 04713e ethminer
@@ -110,17 +118,17 @@ driverless 04713e disabled
 #off 04713e
 
 # BGN CONF - 10way RX580 samsung
-miner 03f1f3 claymore
-mxt 03f1f3 95
-loc 03f1f3 T03
-driverless 03f1f3 disabled
-desktop 03f1f3 disabled
-# GPU        00   01   02   03   04   05   06   07   08   09   10   11   
-safevolt disabled
-cor 03f1f3 1145 1145 1145 1145 1145 1145 1145 1145 1145 1145
-mem 03f1f3 1750 2000 2000 2000 2000 2000 2000 2000 2000 2000
-vlt 03f1f3  900  900  900  900  900  900 900  900  900  900 
-pwr 03f1f3    7    7    7    7    7    7   7    7    7    7
+#miner 03f1f3 claymore
+#mxt 03f1f3 95
+#loc 03f1f3 T03
+#driverless 03f1f3 disabled
+#desktop 03f1f3 disabled
+## GPU        00   01   02   03   04   05   06   07   08   09   10   11   
+#safevolt disabled
+#cor 03f1f3 1145 1145 1145 1145 1145 1145 1145 1145 1145 1145
+#mem 03f1f3 1750 2000 2000 2000 2000 2000 2000 2000 2000 2000
+#vlt 03f1f3  900  900  900  900  900  900 900  900  900  900 
+#pwr 03f1f3    7    7    7    7    7    7   7    7    7    7
 
 # BGN CONF - M20TEST
 miner f73440 ethminer
@@ -143,19 +151,19 @@ driverless 00fa31 disabled
 
 #----------------------------AMD CONFIG File SAMPLE-----------------------------------#
 # BGN CONF - 6way RX580 samsung
-miner f34b51 claymore
-mxt f34b51 90
-loc f34b51 sam10
-driverless f34b51 disabled
-desktop f34b51 disabled
+#miner f34b51 claymore
+#mxt f34b51 90
+#loc f34b51 sam10
+#driverless f34b51 disabled
+#desktop f34b51 disabled
 
 # RX580 SAMSUNG
 # GPU        00   01   02   03   04   05   
-safevolt disabled
-cor f34b51 1145 1145 1145 1145 1145 1145
-mem f34b51 2000 2000 2000 2000 2000 2000
-vlt f34b51  900  900  900  900  900  900
-pwr f34b51    7    7    7    7    7    7
+#safevolt disabled
+#cor f34b51 1145 1145 1145 1145 1145 1145
+#mem f34b51 2000 2000 2000 2000 2000 2000
+#vlt f34b51  900  900  900  900  900  900
+#pwr f34b51    7    7    7    7    7    7
 
 # END CONF - 6way RX580 samsung
 #----------------------------AMD CONFIG File SAMPLE-----------------------------------#
@@ -167,4 +175,4 @@ pwr f34b51    7    7    7    7    7    7
 #minestop && minestart <-- stop miner 
 #sudo r <-- reboot
 #sudo ethos-overclocking 
-
+##
