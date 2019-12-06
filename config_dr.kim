@@ -101,7 +101,7 @@ driverless f738a7 disabled
 
 # BGN CONF - T3
 mxt 03f1f3 100
-loc 03f1f3 T3
+loc 03f1f3 T03
 driverless 03f1f3 disabled
 #desktop 03f1f3 disabled
 sel 03f1f3 1 2 3 4 5 7 8 9 
@@ -133,7 +133,7 @@ driverless 04713e disabled
 # BGN CONF - M20TEST
 miner f73440 ethminer
 mxt f73440 95
-loc f73440 T6
+loc f73440 T06
 driverless f73440 disabled
 #desktop f73440 disabled
 #sel f73440 0 1 2 3 4 5 6 7 8 9 10 11 12
