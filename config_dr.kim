@@ -51,6 +51,7 @@ driverless f73bf6 disabled
 # # END CONF - M07
 
 # BGN CONF - M08
+miner f73bf6 wildrig-multi
 loc f73e68 M08
 driverless f73e68 disabled
 #desktop f73e68 disabled
