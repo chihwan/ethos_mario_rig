@@ -11,9 +11,10 @@ autoreboot 3
 #xmr-stak=proxywallet todaewon
 #xmr-stak=poolpass1 x
 
-xmr-stak=proxypool1 haven.miner.rocks:4005
-xmr-stak=proxywallet hvxyKMkpp8wAmvhV4UUD9ZNAuDgKQrAD7Rf3nHy5dN8T2FPEsxQdWYSgYPd4kDpv6o8wWdcX4Z3qSMWDdo4SwdP42gNtMheRQu
-xmr-stak=poolpass1 x
+#wildrig-multi
+wildrig-multi=proxypool1 stratum+tcp://raven.f2pool.com:3636
+wildrig-multi=proxywallet RCDHb8gegbsGniqz5VJwfDQEW5WdS59o7o
+wildrig-multi=poolpass1 x
 
 ethminer=proxypool1 asia.ethash-hub.miningpoolhub.com:20535
 ethminer=proxywallet todaewon
@@ -41,6 +42,7 @@ sel f738a2 0 1 2 3 4 5 6 7 8 9
 # # END CONF - M05
 
 # BGN CONF - M07
+miner f73bf6 wildrig-multi
 loc f73bf6 M07
 driverless f73bf6 disabled
 #desktop f73bf6 disabled
