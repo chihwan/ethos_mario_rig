@@ -12,7 +12,7 @@ autoreboot 3
 #xmr-stak=poolpass1 x
 
 #wildrig-multi
-wildrig-multi=proxypool1 stratum+tcp://raven.f2pool.com:3636
+wildrig-multi=proxypool1 stratum+tcp://asia.x16rv2-hub.miningpoolhub.com:20611
 wildrig-multi=proxywallet RCDHb8gegbsGniqz5VJwfDQEW5WdS59o7o
 wildrig-multi=poolpass1 x
 
